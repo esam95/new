@@ -1,6 +1,5 @@
 import { add, divide } from "../components/calculations"
 
-describe("addition", () => {
     test("addera två heltal och returnera summan", () => {
         //Given
         const x = 15;
@@ -11,7 +10,7 @@ describe("addition", () => {
 
         //Then
         expect(sum).toBe(23);
-    })})
+    })
 
 
     test("dividera två heltal och returnera närmaste heltal", () => {

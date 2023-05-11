@@ -1,12 +1,24 @@
 const add = (x, y) => {
-    const result = x + y;
+    var result = '';
+
+    if (Number.isInteger(x) && Number.isInteger(y)) {
+        result = x + y;
+    } else {
+        result = 'Please enter integers';
+    }
     return result;
 };
 
 const divide = (x, y) => {
-    const result = x / y;
-    return Math.round(result);
-  }
+    var result = '';
+
+    if (Number.isInteger(x) && Number.isInteger(y)) {
+        result = Math.round(x / y);
+    } else {
+        result = 'Please enter integers';
+    }
+    return result;
+};
   
 
 export {
