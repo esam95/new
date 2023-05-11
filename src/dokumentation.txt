@@ -1,0 +1,14 @@
+I detta projekt har vi valt att testa de olika beräkningsfunktionerna som vi skapat för att beräkna summan eller kvoten på inmatad data.
+
+En första gallring sker i själva funktionen där den endast accepterar heltal. Ifall annat än heltal inmatas så skickas ett felmeddelande.
+
+Själva testning av funktionen är väldigt enkel och är ett positivt test som ska ge oss ett positivt resultat. Vi matar in två heltal och förväntar oss en summa 
+
+i additionsfukntionen samt en avrundad kvot i divisionsfunktionen.
+
+
+Vi har även gjort en testning av själva rendering av "Calculator"-kompontenten. Där har vi fångat upp input-elementen och gjort etn simulering av att stoppa in
+två heltal och klicka på "add" för att addera dem och sedan "calculate" för att visa resultatet. Resultat som renderas ska sedan vara rätt svar. Detta testet gick
+igenom.
+
+Vi har valt att inte testa så kallad två-vägs-bindande input. D.v.s. att den input som matas in ändrar på vår state för input data.

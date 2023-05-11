@@ -11,12 +11,15 @@ const Calculator = () => {
     e.preventDefault()
     setResult(add(Number(value1), Number(value2)));
     setIsResultVisible(false);
+    console.log(value1)
+    console.log(value2)
    }
-
    function divideFunction(e) {
     e.preventDefault()
     setResult(divide(Number(value1), Number(value2)));
     setIsResultVisible(false);
+    console.log(value1)
+    console.log(value2)
    }
 
    function changeValue1(e) {
